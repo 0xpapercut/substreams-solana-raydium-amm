@@ -1,5 +1,5 @@
 [package]
-name = "substreams_solana_raydium_amm"
+name = "substreams-solana-raydium-amm"
 version = "0.1.0"
 edition = "2021"
 
