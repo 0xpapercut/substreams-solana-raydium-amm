@@ -1,0 +1,16 @@
+[package]
+name = "substreams_solana_raydium_amm"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "substreams_solana_raydium_amm"
+
+[dependencies]
+substreams-solana-program-instructions = "0.1.1"
+arrayref = "0.3.7"
+serde = { version = "1.0", features = ["derive"] }
+bytemuck = "1.15.0"
+safe-transmute = "0.11.2"
+bincode = "1.3.3"
+base64 = "0.13.0"
